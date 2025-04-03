@@ -278,39 +278,3 @@
             filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.4));
         }
 
-        /* Адаптивность */
-        @media (max-width: 768px) {
-            :root {
-                --panel-width: 280px;
-            }
-
-            #category-select {
-                width: 150px;
-                top: 80px;
-                right: 10px;
-                font-size: 0.9rem;
-                z-index: 1000;
-            }
-
-            #title {
-                font-size: 1rem;
-                top: 10px;
-                width: 80%;
-                padding: 8px 15px;
-            }
-        }
-
-        /* Анимации */
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-
-        .fade-in {
-            animation: fadeIn 0.5s ease-in-out;
-        }
-
-        /* Скрытие атрибуции Leaflet */
-        .leaflet-control-attribution {
-            display: none !important;
-        }

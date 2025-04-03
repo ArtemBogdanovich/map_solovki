@@ -1,7 +1,3 @@
-# Игнорировать директорию media
-media/
-
-# Игнорировать файл settings.py
-settings.py
-
-
+/media
+/my_venv
+/settings.py
