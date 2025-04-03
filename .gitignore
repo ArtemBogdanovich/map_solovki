@@ -1,0 +1,7 @@
+# Игнорировать директорию media
+media/
+
+# Игнорировать файл settings.py
+settings.py
+
+
