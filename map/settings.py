@@ -79,12 +79,12 @@ WSGI_APPLICATION = 'map.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.contrib.gis.db.backends.postgis',
-        'NAME': 'mapsolovki',
-        'USER': 'museum1',
-        'PASSWORD': 'fakel',
-        'HOST': 'localhost',
-        'PORT': '5456',
+        'ENGINE': '',
+        'NAME': '',
+        'USER': '',
+        'PASSWORD': '',
+        'HOST': '',
+        'PORT': '',
     }
 }
 
